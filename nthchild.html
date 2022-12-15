@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NTH CHILD IN CSS</title>
+</head>
+<body>
+    <h1>NTH CHILD IN CSS</h1>
+    <h2>Nth Child Selector</h2>
+    <!-- Today we'll be going back to some CSS basics. I tend to use nth-child selectors in my articles.
+
+     But that made me realise I haven't really gone over the basics of using nth-child selectors.
+
+    Today we will be exploring the options of this powerful CSS selector and some examples. -->
+    <ul>
+        <li>ONE</li>
+        <li>TWO</li>
+        <li>THREE</li>
+        <li>FOUR</li>
+        <li>FIVE</li>
+        <li>SIX</li>
+        <li>SEVEN</li>
+        <li>EIGHT</li>
+        <li>NINE</li>
+         <li>TEN</li>
+    </ul>
+    
+    <!-- Let's start off by using some basic selectors.
+    We can define which element we want to select. So lets say we want to select the third item. -->
+    <!-- <h2>ODD/EVEN SELECTOR</h2>
+    <ul>
+        <li>ONE</li>
+        <li>TWO</li>
+        <li>THREE</li>
+        <li>FOUR</li>
+        <li>FIVE</li>
+        <li>SIX</li>
+        <li>SEVEN</li>
+        <li>EIGHT</li>
+        <li>NINE</li>
+         <li>TEN</li>
+    </ul> -->
+    <style>
+      li{
+            list-style-type: circle;
+        }
+        li:nth-child(5){
+            color:#E21717;
+        }
+        *{
+            background-color:#E5D68A;
+        }
+    </style>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOCUS</title>
+</head>
+<body>
+    <h1 class="head">FOCUS IN CSS</h1>
+    <label class="name" for="First Name" style="font-size:32px ;">Name:</label>
+    <input type="text" name="name"><br><br>
+    <label class="name" for="Password" style="font-size:32px ;">Password:</label>
+    <input type="password" name="password" id="pass">
+    <STYle>
+        *{
+            background-color:#8D3DAF;
+        }
+        .head{
+            color: #CAD5E2;
+        }
+        .name{
+            color:#DDD101;
+            border: 3px solid white;
+        }
+        input:focus{
+            background-color: #DDD101;
+            color: #E21717;
+            /* border: 2px solid #1C8D73; */
+            width: 20%;
+            height: 10%;
+            border-style: 2px dotted #1CBD73;
+            /* FOCUS IS APPLIED ONLY ON INPUT TAGS */
+        }
+        /* }Highest priority is always given to inline css */
+        /* CSS SELECTORS-->CLASS ID,DECLARATION--> PROPERTY VALUE */
+        /* ID'S ARE UNIQUE IF MORE THAN SAME ID'S ARE THERE THEN PROPERTY OF ID WILL BE BROKEN */
+        /* APPLYING SAME CLASS CAN BE PLACED IN MULTIPLE PALCES */
+    </STYle>
+</body>
+</html>

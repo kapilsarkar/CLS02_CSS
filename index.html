@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WELCOME TO CSS</title>
+</head>
+<body>
+    <h1 class="head">CSS SELECTORS</h1>
+    <h3>::BEFORE</h3>
+    <label class="name" for="First Name">First Name</label>
+    <input type="text" name="name">
+    <h3>::AFTER</h3>
+    <label class="name1" for="Last Name">Last Name</label>
+    <input type="text" name="name">
+    <br>
+    <h1>This is about Pseudo hover before Elements</h1>
+            <p class="pseudo">lets learn about pseudo elements</p>
+            <br>
+            <h1>This is about Pseudo hover after Elements</h1>
+            <p class="pseudo1">lets learn about pseudo elements</p>
+    <style>
+        *{
+            background-color:#D9D55B ;
+        }
+        .head{
+            color: #8D3DAF;
+            
+        }
+        .name::before{
+            border-radius: 50px;
+            background-color: #8D3DAF;
+            content:"Your First Name" ;
+            padding: 5px;
+            color: white;
+        }
+        .name1::after{
+            border-radius: 50px;
+            background-color: #8D3DAF;
+            content:"Your Last Name" ;
+            padding: 5px;
+            color: white;
+        }
+        .pseudo:hover::before{
+            content: "Kapil Sarkar";
+            display: block;
+            font-size:50px;
+            color: red;
+        }
+        .pseudo1:hover::after{
+            content: "Kapil Sarkar";
+            display: block;
+            font-size:50px;
+            color: red;
+        }
+    </style>
+</body>
+</html>

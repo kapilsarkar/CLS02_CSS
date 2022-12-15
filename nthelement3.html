@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NTH ELEMENT</title>
+</head>
+<body>
+    <h1>EVERYTHING ABOUT FIRST AND LAST CHILD SELECTOR</h1>
+    <ul>
+        <li>ONE</li>
+        <li>TWO</li>
+        <li>THREE</li>
+        <li>FOUR</li>
+        <li>FIVE</li>
+        <li>SIX</li>
+        <li>SEVEN</li>
+        <li>EIGHT</li>
+        <li>NINE</li>
+        <li>TEN</li>
+    </ul>
+   <style>
+    li{
+        list-style-type: disc;
+    }
+    /* We can even have a selector that states select everything but the first three elements. */
+    li:nth-child(n+4){
+        color: #E03B8B;
+    }
+   
+   </style>
+</body>
+</html>
